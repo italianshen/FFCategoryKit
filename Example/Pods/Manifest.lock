@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FFCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - FFCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  FFCategoryKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FFCategoryKit: 96ca6a3395f1338d73cae35ba75db3d40fa87c1b
+
+PODFILE CHECKSUM: 7c58324d120101ace90215ba25d9bba3e25b7cba
+
+COCOAPODS: 1.4.0
